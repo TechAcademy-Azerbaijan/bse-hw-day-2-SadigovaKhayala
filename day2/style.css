@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+#header  {
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 49px;
+line-height: 61px;
+text-align: center;
+color: #109E97;
+text-decoration: none;
+display: block;
+}
+.bookname{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 27px;
+}
+.currentPrice{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+display: inline-block;
+color: #008000;
+}
+.lastPrice{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF0000;
+    display: inline-block;
+    text-decoration: line-through;
+}
+.backgroundImg{
+    background-image: url(/images/Inkognito.png);
+    width: 200px;
+    height: 302px;
+    background-size: cover;
+}
+.aboutBook{
+width: 100%;
+height: 256px;
+left: 8px;
+top: 552px;
+background: #000000;
+border-radius: 0px;
+margin-top: 5px;
+margin-bottom: 5px;
+color: #000;
+}
+
+.aboutContent{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: right;
+letter-spacing: 2px;
+color: #FFFFFF;
+text-align: right;
+}
+.aboutHeader{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+color: #FFFFFF;
+ padding: 20px 0 20px;
+border: 1px solid #000000;
+}
+
+.SpecHeder{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin: 10px;
+text-transform: uppercase;
+}
+
+.hr{
+box-sizing: border-box;
+width: 100%;
+height: 2px;
+left: 8px;
+top: 130px;
+border: 1px solid #000000;
+border-radius: 0px;
+}
+#specTable{
+box-sizing: border-box;
+width: 100%;
+height: 194px;
+left: 8px;
+top: 879px;
+border: 1px solid #808080;
+border-radius: 0px;
+
+}
+td, th{
+box-sizing: border-box;
+width: 727px;
+height: 36px;
+left: 11px;
+top: 920px;
+border: 1px solid #808080;
+border-radius: 0px;
+}
+.commentHeader{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+.labelBox{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #000000;
+
+}
+
+
+
+.send{
+box-sizing: border-box;
+width: 120px;
+height: 50px;
+left: 859px;
+top: 1595px;
+background: #109E97;
+border: 2px solid #767676;
+border-radius: 0px;
+color: white;
+}
+
+.socialMedia , a{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #0000EE;
+list-style: none;
+text-decoration: none;
+}
+footer{
+width: 100%;
+height: 86px;
+left: 8px;
+top: 1839px;
+background: #109E97;
+border-radius: 0px;
+}
+ footer p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+ }
+
+ .BackgroundRight{
+    background-image: url(/images/Inkognito.png);
+    width: 33%;
+    height: 302px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-position-x: left;
+    display: inline-block;}
+
+    .BackgroundLeft{
+        background-image: url(/images/Inkognito.png);
+        background-repeat: no-repeat;
+        width: 33%;
+        height: 302px;
+        background-size: contain;
+        background-position-x: right;
+        display: inline-block; }
+
+        .commentCenter{
+            display: inline-block;
+           width: 33%;
+        }
